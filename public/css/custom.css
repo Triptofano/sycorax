@@ -1,0 +1,4 @@
+.header .logo { padding-top: 10px; }
+a.logo, a.logo:hover, a.logo:link, a.logo:active, a.logo:focus { color: white; font-size: 36px; }
+a.logo:link { text-decoration:none; }
+

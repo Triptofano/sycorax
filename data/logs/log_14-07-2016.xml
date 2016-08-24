@@ -1,0 +1,180 @@
+<logEntry><timestamp>2016-07-14T18:50:48+02:00</timestamp><priority>3</priority><priorityName>ERR</priorityName><message>Exception:
+1: Could not find row 0
+Trace:
+#0 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\module\Base\src\Base\Controller\CrudController.php(80): Base\Service\AbstractTable-&gt;findById(0)
+#1 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-mvc\src\Controller\AbstractActionController.php(82): Base\Controller\CrudController-&gt;editAction()
+#2 [internal function]: Zend\Mvc\Controller\AbstractActionController-&gt;onDispatch(Object(Zend\Mvc\MvcEvent))
+#3 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-eventmanager\src\EventManager.php(490): call_user_func(Array, Object(Zend\Mvc\MvcEvent))
+#4 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-eventmanager\src\EventManager.php(263): Zend\EventManager\EventManager-&gt;triggerListeners('dispatch', Object(Zend\Mvc\MvcEvent), Object(Closure))
+#5 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-mvc\src\Controller\AbstractController.php(118): Zend\EventManager\EventManager-&gt;triggerEventUntil(Object(Closure), Object(Zend\Mvc\MvcEvent))
+#6 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-mvc\src\DispatchListener.php(118): Zend\Mvc\Controller\AbstractController-&gt;dispatch(Object(Zend\Http\PhpEnvironment\Request), Object(Zend\Http\PhpEnvironment\Response))
+#7 [internal function]: Zend\Mvc\DispatchListener-&gt;onDispatch(Object(Zend\Mvc\MvcEvent))
+#8 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-eventmanager\src\EventManager.php(490): call_user_func(Array, Object(Zend\Mvc\MvcEvent))
+#9 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-eventmanager\src\EventManager.php(263): Zend\EventManager\EventManager-&gt;triggerListeners('dispatch', Object(Zend\Mvc\MvcEvent), Object(Closure))
+#10 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-mvc\src\Application.php(340): Zend\EventManager\EventManager-&gt;triggerEventUntil(Object(Closure), Object(Zend\Mvc\MvcEvent))
+#11 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\public\index.php(17): Zend\Mvc\Application-&gt;run()
+#12 {main}</message></logEntry>
+
+
+<logEntry><timestamp>2016-07-14T18:50:48+02:00</timestamp><priority>3</priority><priorityName>ERR</priorityName><message>Exception:
+1: Could not find row 0
+Trace:
+#0 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\module\Base\src\Base\Controller\CrudController.php(80): Base\Service\AbstractTable-&gt;findById(0)
+#1 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-mvc\src\Controller\AbstractActionController.php(82): Base\Controller\CrudController-&gt;editAction()
+#2 [internal function]: Zend\Mvc\Controller\AbstractActionController-&gt;onDispatch(Object(Zend\Mvc\MvcEvent))
+#3 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-eventmanager\src\EventManager.php(490): call_user_func(Array, Object(Zend\Mvc\MvcEvent))
+#4 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-eventmanager\src\EventManager.php(263): Zend\EventManager\EventManager-&gt;triggerListeners('dispatch', Object(Zend\Mvc\MvcEvent), Object(Closure))
+#5 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-mvc\src\Controller\AbstractController.php(118): Zend\EventManager\EventManager-&gt;triggerEventUntil(Object(Closure), Object(Zend\Mvc\MvcEvent))
+#6 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-mvc\src\DispatchListener.php(118): Zend\Mvc\Controller\AbstractController-&gt;dispatch(Object(Zend\Http\PhpEnvironment\Request), Object(Zend\Http\PhpEnvironment\Response))
+#7 [internal function]: Zend\Mvc\DispatchListener-&gt;onDispatch(Object(Zend\Mvc\MvcEvent))
+#8 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-eventmanager\src\EventManager.php(490): call_user_func(Array, Object(Zend\Mvc\MvcEvent))
+#9 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-eventmanager\src\EventManager.php(263): Zend\EventManager\EventManager-&gt;triggerListeners('dispatch', Object(Zend\Mvc\MvcEvent), Object(Closure))
+#10 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-mvc\src\Application.php(340): Zend\EventManager\EventManager-&gt;triggerEventUntil(Object(Closure), Object(Zend\Mvc\MvcEvent))
+#11 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\public\index.php(17): Zend\Mvc\Application-&gt;run()
+#12 {main}</message></logEntry>
+
+
+<logEntry><timestamp>2016-07-14T18:51:17+02:00</timestamp><priority>3</priority><priorityName>ERR</priorityName><message>Exception:
+1: Could not find row 0
+Trace:
+#0 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\module\Base\src\Base\Controller\CrudController.php(80): Base\Service\AbstractTable-&gt;findById('id')
+#1 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-mvc\src\Controller\AbstractActionController.php(82): Base\Controller\CrudController-&gt;editAction()
+#2 [internal function]: Zend\Mvc\Controller\AbstractActionController-&gt;onDispatch(Object(Zend\Mvc\MvcEvent))
+#3 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-eventmanager\src\EventManager.php(490): call_user_func(Array, Object(Zend\Mvc\MvcEvent))
+#4 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-eventmanager\src\EventManager.php(263): Zend\EventManager\EventManager-&gt;triggerListeners('dispatch', Object(Zend\Mvc\MvcEvent), Object(Closure))
+#5 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-mvc\src\Controller\AbstractController.php(118): Zend\EventManager\EventManager-&gt;triggerEventUntil(Object(Closure), Object(Zend\Mvc\MvcEvent))
+#6 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-mvc\src\DispatchListener.php(118): Zend\Mvc\Controller\AbstractController-&gt;dispatch(Object(Zend\Http\PhpEnvironment\Request), Object(Zend\Http\PhpEnvironment\Response))
+#7 [internal function]: Zend\Mvc\DispatchListener-&gt;onDispatch(Object(Zend\Mvc\MvcEvent))
+#8 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-eventmanager\src\EventManager.php(490): call_user_func(Array, Object(Zend\Mvc\MvcEvent))
+#9 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-eventmanager\src\EventManager.php(263): Zend\EventManager\EventManager-&gt;triggerListeners('dispatch', Object(Zend\Mvc\MvcEvent), Object(Closure))
+#10 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-mvc\src\Application.php(340): Zend\EventManager\EventManager-&gt;triggerEventUntil(Object(Closure), Object(Zend\Mvc\MvcEvent))
+#11 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\public\index.php(17): Zend\Mvc\Application-&gt;run()
+#12 {main}</message></logEntry>
+
+
+<logEntry><timestamp>2016-07-14T18:51:17+02:00</timestamp><priority>3</priority><priorityName>ERR</priorityName><message>Exception:
+1: Could not find row 0
+Trace:
+#0 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\module\Base\src\Base\Controller\CrudController.php(80): Base\Service\AbstractTable-&gt;findById('id')
+#1 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-mvc\src\Controller\AbstractActionController.php(82): Base\Controller\CrudController-&gt;editAction()
+#2 [internal function]: Zend\Mvc\Controller\AbstractActionController-&gt;onDispatch(Object(Zend\Mvc\MvcEvent))
+#3 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-eventmanager\src\EventManager.php(490): call_user_func(Array, Object(Zend\Mvc\MvcEvent))
+#4 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-eventmanager\src\EventManager.php(263): Zend\EventManager\EventManager-&gt;triggerListeners('dispatch', Object(Zend\Mvc\MvcEvent), Object(Closure))
+#5 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-mvc\src\Controller\AbstractController.php(118): Zend\EventManager\EventManager-&gt;triggerEventUntil(Object(Closure), Object(Zend\Mvc\MvcEvent))
+#6 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-mvc\src\DispatchListener.php(118): Zend\Mvc\Controller\AbstractController-&gt;dispatch(Object(Zend\Http\PhpEnvironment\Request), Object(Zend\Http\PhpEnvironment\Response))
+#7 [internal function]: Zend\Mvc\DispatchListener-&gt;onDispatch(Object(Zend\Mvc\MvcEvent))
+#8 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-eventmanager\src\EventManager.php(490): call_user_func(Array, Object(Zend\Mvc\MvcEvent))
+#9 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-eventmanager\src\EventManager.php(263): Zend\EventManager\EventManager-&gt;triggerListeners('dispatch', Object(Zend\Mvc\MvcEvent), Object(Closure))
+#10 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-mvc\src\Application.php(340): Zend\EventManager\EventManager-&gt;triggerEventUntil(Object(Closure), Object(Zend\Mvc\MvcEvent))
+#11 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\public\index.php(17): Zend\Mvc\Application-&gt;run()
+#12 {main}</message></logEntry>
+
+
+<logEntry><timestamp>2016-07-14T18:51:28+02:00</timestamp><priority>3</priority><priorityName>ERR</priorityName><message>Exception:
+1: Could not find row 0
+Trace:
+#0 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\module\Base\src\Base\Controller\CrudController.php(80): Base\Service\AbstractTable-&gt;findById(0)
+#1 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-mvc\src\Controller\AbstractActionController.php(82): Base\Controller\CrudController-&gt;editAction()
+#2 [internal function]: Zend\Mvc\Controller\AbstractActionController-&gt;onDispatch(Object(Zend\Mvc\MvcEvent))
+#3 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-eventmanager\src\EventManager.php(490): call_user_func(Array, Object(Zend\Mvc\MvcEvent))
+#4 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-eventmanager\src\EventManager.php(263): Zend\EventManager\EventManager-&gt;triggerListeners('dispatch', Object(Zend\Mvc\MvcEvent), Object(Closure))
+#5 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-mvc\src\Controller\AbstractController.php(118): Zend\EventManager\EventManager-&gt;triggerEventUntil(Object(Closure), Object(Zend\Mvc\MvcEvent))
+#6 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-mvc\src\DispatchListener.php(118): Zend\Mvc\Controller\AbstractController-&gt;dispatch(Object(Zend\Http\PhpEnvironment\Request), Object(Zend\Http\PhpEnvironment\Response))
+#7 [internal function]: Zend\Mvc\DispatchListener-&gt;onDispatch(Object(Zend\Mvc\MvcEvent))
+#8 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-eventmanager\src\EventManager.php(490): call_user_func(Array, Object(Zend\Mvc\MvcEvent))
+#9 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-eventmanager\src\EventManager.php(263): Zend\EventManager\EventManager-&gt;triggerListeners('dispatch', Object(Zend\Mvc\MvcEvent), Object(Closure))
+#10 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-mvc\src\Application.php(340): Zend\EventManager\EventManager-&gt;triggerEventUntil(Object(Closure), Object(Zend\Mvc\MvcEvent))
+#11 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\public\index.php(17): Zend\Mvc\Application-&gt;run()
+#12 {main}</message></logEntry>
+
+
+<logEntry><timestamp>2016-07-14T18:51:28+02:00</timestamp><priority>3</priority><priorityName>ERR</priorityName><message>Exception:
+1: Could not find row 0
+Trace:
+#0 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\module\Base\src\Base\Controller\CrudController.php(80): Base\Service\AbstractTable-&gt;findById(0)
+#1 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-mvc\src\Controller\AbstractActionController.php(82): Base\Controller\CrudController-&gt;editAction()
+#2 [internal function]: Zend\Mvc\Controller\AbstractActionController-&gt;onDispatch(Object(Zend\Mvc\MvcEvent))
+#3 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-eventmanager\src\EventManager.php(490): call_user_func(Array, Object(Zend\Mvc\MvcEvent))
+#4 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-eventmanager\src\EventManager.php(263): Zend\EventManager\EventManager-&gt;triggerListeners('dispatch', Object(Zend\Mvc\MvcEvent), Object(Closure))
+#5 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-mvc\src\Controller\AbstractController.php(118): Zend\EventManager\EventManager-&gt;triggerEventUntil(Object(Closure), Object(Zend\Mvc\MvcEvent))
+#6 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-mvc\src\DispatchListener.php(118): Zend\Mvc\Controller\AbstractController-&gt;dispatch(Object(Zend\Http\PhpEnvironment\Request), Object(Zend\Http\PhpEnvironment\Response))
+#7 [internal function]: Zend\Mvc\DispatchListener-&gt;onDispatch(Object(Zend\Mvc\MvcEvent))
+#8 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-eventmanager\src\EventManager.php(490): call_user_func(Array, Object(Zend\Mvc\MvcEvent))
+#9 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-eventmanager\src\EventManager.php(263): Zend\EventManager\EventManager-&gt;triggerListeners('dispatch', Object(Zend\Mvc\MvcEvent), Object(Closure))
+#10 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-mvc\src\Application.php(340): Zend\EventManager\EventManager-&gt;triggerEventUntil(Object(Closure), Object(Zend\Mvc\MvcEvent))
+#11 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\public\index.php(17): Zend\Mvc\Application-&gt;run()
+#12 {main}</message></logEntry>
+
+
+<logEntry><timestamp>2016-07-14T18:54:12+02:00</timestamp><priority>3</priority><priorityName>ERR</priorityName><message>Exception:
+1: Could not find row 0
+Trace:
+#0 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\module\Base\src\Base\Controller\CrudController.php(80): Base\Service\AbstractTable-&gt;findById(0)
+#1 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-mvc\src\Controller\AbstractActionController.php(82): Base\Controller\CrudController-&gt;editAction()
+#2 [internal function]: Zend\Mvc\Controller\AbstractActionController-&gt;onDispatch(Object(Zend\Mvc\MvcEvent))
+#3 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-eventmanager\src\EventManager.php(490): call_user_func(Array, Object(Zend\Mvc\MvcEvent))
+#4 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-eventmanager\src\EventManager.php(263): Zend\EventManager\EventManager-&gt;triggerListeners('dispatch', Object(Zend\Mvc\MvcEvent), Object(Closure))
+#5 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-mvc\src\Controller\AbstractController.php(118): Zend\EventManager\EventManager-&gt;triggerEventUntil(Object(Closure), Object(Zend\Mvc\MvcEvent))
+#6 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-mvc\src\DispatchListener.php(118): Zend\Mvc\Controller\AbstractController-&gt;dispatch(Object(Zend\Http\PhpEnvironment\Request), Object(Zend\Http\PhpEnvironment\Response))
+#7 [internal function]: Zend\Mvc\DispatchListener-&gt;onDispatch(Object(Zend\Mvc\MvcEvent))
+#8 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-eventmanager\src\EventManager.php(490): call_user_func(Array, Object(Zend\Mvc\MvcEvent))
+#9 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-eventmanager\src\EventManager.php(263): Zend\EventManager\EventManager-&gt;triggerListeners('dispatch', Object(Zend\Mvc\MvcEvent), Object(Closure))
+#10 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-mvc\src\Application.php(340): Zend\EventManager\EventManager-&gt;triggerEventUntil(Object(Closure), Object(Zend\Mvc\MvcEvent))
+#11 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\public\index.php(17): Zend\Mvc\Application-&gt;run()
+#12 {main}</message></logEntry>
+
+
+<logEntry><timestamp>2016-07-14T18:54:12+02:00</timestamp><priority>3</priority><priorityName>ERR</priorityName><message>Exception:
+1: Could not find row 0
+Trace:
+#0 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\module\Base\src\Base\Controller\CrudController.php(80): Base\Service\AbstractTable-&gt;findById(0)
+#1 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-mvc\src\Controller\AbstractActionController.php(82): Base\Controller\CrudController-&gt;editAction()
+#2 [internal function]: Zend\Mvc\Controller\AbstractActionController-&gt;onDispatch(Object(Zend\Mvc\MvcEvent))
+#3 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-eventmanager\src\EventManager.php(490): call_user_func(Array, Object(Zend\Mvc\MvcEvent))
+#4 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-eventmanager\src\EventManager.php(263): Zend\EventManager\EventManager-&gt;triggerListeners('dispatch', Object(Zend\Mvc\MvcEvent), Object(Closure))
+#5 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-mvc\src\Controller\AbstractController.php(118): Zend\EventManager\EventManager-&gt;triggerEventUntil(Object(Closure), Object(Zend\Mvc\MvcEvent))
+#6 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-mvc\src\DispatchListener.php(118): Zend\Mvc\Controller\AbstractController-&gt;dispatch(Object(Zend\Http\PhpEnvironment\Request), Object(Zend\Http\PhpEnvironment\Response))
+#7 [internal function]: Zend\Mvc\DispatchListener-&gt;onDispatch(Object(Zend\Mvc\MvcEvent))
+#8 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-eventmanager\src\EventManager.php(490): call_user_func(Array, Object(Zend\Mvc\MvcEvent))
+#9 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-eventmanager\src\EventManager.php(263): Zend\EventManager\EventManager-&gt;triggerListeners('dispatch', Object(Zend\Mvc\MvcEvent), Object(Closure))
+#10 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-mvc\src\Application.php(340): Zend\EventManager\EventManager-&gt;triggerEventUntil(Object(Closure), Object(Zend\Mvc\MvcEvent))
+#11 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\public\index.php(17): Zend\Mvc\Application-&gt;run()
+#12 {main}</message></logEntry>
+
+
+<logEntry><timestamp>2016-07-14T18:54:46+02:00</timestamp><priority>3</priority><priorityName>ERR</priorityName><message>Exception:
+1: Could not find row 0
+Trace:
+#0 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\module\Base\src\Base\Controller\CrudController.php(80): Base\Service\AbstractTable-&gt;findById(0)
+#1 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-mvc\src\Controller\AbstractActionController.php(82): Base\Controller\CrudController-&gt;editAction()
+#2 [internal function]: Zend\Mvc\Controller\AbstractActionController-&gt;onDispatch(Object(Zend\Mvc\MvcEvent))
+#3 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-eventmanager\src\EventManager.php(490): call_user_func(Array, Object(Zend\Mvc\MvcEvent))
+#4 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-eventmanager\src\EventManager.php(263): Zend\EventManager\EventManager-&gt;triggerListeners('dispatch', Object(Zend\Mvc\MvcEvent), Object(Closure))
+#5 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-mvc\src\Controller\AbstractController.php(118): Zend\EventManager\EventManager-&gt;triggerEventUntil(Object(Closure), Object(Zend\Mvc\MvcEvent))
+#6 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-mvc\src\DispatchListener.php(118): Zend\Mvc\Controller\AbstractController-&gt;dispatch(Object(Zend\Http\PhpEnvironment\Request), Object(Zend\Http\PhpEnvironment\Response))
+#7 [internal function]: Zend\Mvc\DispatchListener-&gt;onDispatch(Object(Zend\Mvc\MvcEvent))
+#8 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-eventmanager\src\EventManager.php(490): call_user_func(Array, Object(Zend\Mvc\MvcEvent))
+#9 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-eventmanager\src\EventManager.php(263): Zend\EventManager\EventManager-&gt;triggerListeners('dispatch', Object(Zend\Mvc\MvcEvent), Object(Closure))
+#10 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-mvc\src\Application.php(340): Zend\EventManager\EventManager-&gt;triggerEventUntil(Object(Closure), Object(Zend\Mvc\MvcEvent))
+#11 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\public\index.php(17): Zend\Mvc\Application-&gt;run()
+#12 {main}</message></logEntry>
+
+
+<logEntry><timestamp>2016-07-14T18:54:46+02:00</timestamp><priority>3</priority><priorityName>ERR</priorityName><message>Exception:
+1: Could not find row 0
+Trace:
+#0 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\module\Base\src\Base\Controller\CrudController.php(80): Base\Service\AbstractTable-&gt;findById(0)
+#1 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-mvc\src\Controller\AbstractActionController.php(82): Base\Controller\CrudController-&gt;editAction()
+#2 [internal function]: Zend\Mvc\Controller\AbstractActionController-&gt;onDispatch(Object(Zend\Mvc\MvcEvent))
+#3 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-eventmanager\src\EventManager.php(490): call_user_func(Array, Object(Zend\Mvc\MvcEvent))
+#4 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-eventmanager\src\EventManager.php(263): Zend\EventManager\EventManager-&gt;triggerListeners('dispatch', Object(Zend\Mvc\MvcEvent), Object(Closure))
+#5 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-mvc\src\Controller\AbstractController.php(118): Zend\EventManager\EventManager-&gt;triggerEventUntil(Object(Closure), Object(Zend\Mvc\MvcEvent))
+#6 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-mvc\src\DispatchListener.php(118): Zend\Mvc\Controller\AbstractController-&gt;dispatch(Object(Zend\Http\PhpEnvironment\Request), Object(Zend\Http\PhpEnvironment\Response))
+#7 [internal function]: Zend\Mvc\DispatchListener-&gt;onDispatch(Object(Zend\Mvc\MvcEvent))
+#8 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-eventmanager\src\EventManager.php(490): call_user_func(Array, Object(Zend\Mvc\MvcEvent))
+#9 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-eventmanager\src\EventManager.php(263): Zend\EventManager\EventManager-&gt;triggerListeners('dispatch', Object(Zend\Mvc\MvcEvent), Object(Closure))
+#10 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-mvc\src\Application.php(340): Zend\EventManager\EventManager-&gt;triggerEventUntil(Object(Closure), Object(Zend\Mvc\MvcEvent))
+#11 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\public\index.php(17): Zend\Mvc\Application-&gt;run()
+#12 {main}</message></logEntry>
+
+

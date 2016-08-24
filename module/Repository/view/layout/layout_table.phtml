@@ -1,0 +1,99 @@
+<?php echo $this->doctype(); ?>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <?php echo $this->headMeta()->appendName('viewport', 'width=device-width, initial-scale=1.0') ?>
+        <?php echo $this->headTitle('Repositorio de Codigo Versao 0.1'); ?>
+
+        <!-- Le styles -->
+        <?php
+        echo $this->headLink(array('rel' => 'shortcut icon', 'type' => 'image/vnd.microsoft.icon', 'href' => $this->basePath() . '/img/favicon.ico'))
+                # Style Default
+                ->appendStylesheet($this->basePath() . '/css/style.default.css')
+                ->appendStylesheet($this->basePath() . '/css/style.palegreen.css')
+                # Responsive Tables
+                ->appendStylesheet($this->basePath() . '/css/responsive-tables.css')
+                # Custom
+                ->appendStylesheet($this->basePath() . '/css/custom.css')
+        ;
+        ?>
+
+        <!-- Scripts -->
+        <?php
+        echo $this->headScript()
+                # Jquery
+                ->appendFile($this->basePath() . '/js/jquery-1.12.3.js')
+                ->appendFile($this->basePath() . '/js/jquery-migrate-1.2.1.min.js')
+                ->appendFile($this->basePath() . '/js/jquery-ui-1.10.3.min.js')
+                # bootstrap
+                ->appendFile($this->basePath() . '/js/bootstrap.min.js')
+                # Modernirz
+                ->appendFile($this->basePath() . '/js/modernizr.min.js')
+                # Cookies
+                ->appendFile($this->basePath() . '/js/jquery.cookies.js')
+                # Uniform
+                ->appendFile($this->basePath() . '/js/jquery.uniform.min.js')
+                # Prettify
+                ->appendFile($this->basePath() . '/prettify/prettify.js')
+                # Responsive Tables
+                ->appendFile($this->basePath() . '/js/responsive-tables.js')
+                # Slimscroll
+                ->appendFile($this->basePath() . '/js/jquery.slimscroll.js')
+                # DataTables
+                ->appendFile($this->basePath() . '/js/jquery.dataTables.min.js')
+                # Custom
+                ->appendFile($this->basePath() . '/js/custom.js')
+
+        ;
+        ?>
+    </head>
+    <body>
+        <div id="mainwrapper" class="mainwrapper">
+            <div class="header">
+                <div class="logo">
+                    <a class="logo" href="dashboard.html">Algorithms</a>
+                </div>
+                <div class="headerinner">
+                    <ul class="headmenu">
+                        <?php echo $this->menuNavigation($this->menu, $this->basePath() . '/repository'); ?>
+                    </ul><!--headmenu-->
+                </div>
+            </div>
+
+            <div class="leftpanel">
+
+                <div class="leftmenu">        
+                    <ul class="nav nav-tabs nav-stacked">
+                        <li class="nav-header">Categorias</li>
+                        <?php #\Zend\Debug\Debug::dump($this->menuCategory($this->categories, $this->basePath() . '/repository/category'));die; ?>
+                        <?php echo $this->menuCategory($this->categories, $this->basePath() . '/repository/algorithms/item'); ?>                                               
+                    </ul>
+                </div><!--leftmenu-->
+
+            </div><!-- leftpanel -->
+
+            <div class="rightpanel">
+
+                <div class="pageheader">
+                    <div class="pageicon"><span class="<?php echo $this->headerIconName; ?>"></span></div>
+                    <div class="pagetitle">
+                        <h5><?php echo $this->headerSubTitle; ?></h5>
+                        <h1><?php echo $this->headerTitle; ?></h1>
+                    </div>
+                </div><!--pageheader-->
+
+                <div class="maincontent">
+                    <div class="maincontentinner">
+
+                        <?php echo $this->content; ?>
+
+
+                    </div><!--maincontentinner-->
+                </div><!--maincontent-->
+
+            </div><!--rightpanel-->
+
+        </div><!--mainwrapper-->
+        <?php #echo $this->inlineScript()  ?>
+    </body>
+</html>

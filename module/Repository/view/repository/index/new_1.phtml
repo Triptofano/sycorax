@@ -1,0 +1,92 @@
+<script type="text/javascript">
+    jQuery(document).ready(function () {
+
+        // Smart Wizard 	
+        jQuery('#wizard').smartWizard({onFinish: onFinishCallback});
+
+        function onFinishCallback() {
+            alert('Finish Clicked');
+        }
+
+        jQuery('select, input:checkbox').uniform();
+
+    });
+</script>
+<!-- START OF DEFAULT WIZARD (INVERSE)-->
+<h4 class="subtitle2">Default Wizard (Inverse)</h4>
+<form method="post" action="wizards.html">
+    <div id="wizard" class="wizard wizard-inverse">
+        <br />
+        <ul class="hormenu">
+            <li>
+                <a href="#wiz2step1">
+                    <span class="h2">Step 1</span>
+                    <span class="label">Basic Information</span>
+                </a>
+            </li>
+            <li>
+                <a href="#wiz2step2">
+                    <span class="h2">Step 2</span>
+                    <span class="label">Account Information</span>
+                </a>
+            </li>
+            <li>
+                <a href="#wiz2step3">
+                    <span class="h2">Step 3</span>
+                    <span class="label">Terms of Agreement</span>
+                </a>
+            </li>
+        </ul>
+
+        <div id="wiz2step1" class="formwiz">
+
+            <h4 class="widgettitle">Step 1: Basic Information</h4>
+            <div class="form-horizontal">
+                <div class="form-group">
+                    <label for="inputPassword" class="col-md-2 control-label">Categoria</label>
+                    <div class="col-md-10">
+                        <select data-placeholder="Escolha uma Categoria..." style="width:500px" class="chzn-select" tabindex="2">
+                            <?php foreach($this->category as $key => $name): ?>
+                                <option value="<?php echo $key; ?>"><?php echo $name; ?></option>
+                            <?php endforeach; ?>
+                        </select>
+                    </div>
+                </div>
+
+            </div><!-- form-horizontal --> 
+
+
+        </div><!--#wiz1step1-->
+
+        <div id="wiz2step2" class="formwiz">
+
+            <h4 class="widgettitle">Step 2: Account Information</h4>
+            <div class="form-horizontal">
+                <div class="form-group">
+                    <label for="accountnum" class="col-md-2 control-label">Account No.</label>
+                    <div class="col-md-10">
+                        <input type="text" class="form-control input-default" id="firstname" placeholder="Account No">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="address" class="col-md-2 control-label">Address</label>
+                    <div class="col-md-10">
+                        <textarea class="form-control input-default" id="address" placeholder="Address"></textarea>
+                    </div>
+                </div>
+            </div><!-- form-horizontal --> 
+
+        </div><!--#wiz1step2-->
+
+        <div id="wiz2step3">
+            <h4 class="widgettitle">Step 3: Terms of Agreement</h4>
+            <div class="par terms">
+                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+                <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+                <br />
+            </div>
+        </div><!--#wiz1step3-->
+
+    </div><!--#wizard-->
+</form>
+<!-- END OF DEFAULT WIZARD (INVERSE)-->

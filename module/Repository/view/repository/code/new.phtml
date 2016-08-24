@@ -1,0 +1,52 @@
+<?php
+$form = $this->form;
+$form->setAttribute('action', $this->url('repository/algorithms', array('action' => 'new')));
+$form->prepare();
+echo $this->form()->openTag($form);
+?>
+
+<div id="wiz2step1" class="formwiz">
+
+    <h4 class="widgettitle">Etapa 1: Categoria do algoritmo</h4>
+    <div class="form-horizontal">
+        <div class="form-group">
+            <label class="col-md-2 control-label">Categoria</label>
+            <div class="col-md-10">
+                <?php echo $this->formSelect($form->get('category_id')); ?>
+
+            </div>
+        </div>
+
+    </div><!-- form-horizontal --> 
+
+
+</div><!--#wiz1step1-->
+
+<div id="wiz2step2" class="formwiz">
+
+    <h4 class="widgettitle">Etapa 2: Algoritmo</h4>
+    <div class="form-horizontal">
+        <div class="form-group">
+            <label class="col-md-2 control-label">Nome</label>
+            <div class="col-md-10">
+                <?php echo $this->formInput($form->get('title')); ?>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-md-2 control-label">Desenvolvedor</label>
+            <div class="col-md-10">
+                <?php echo $this->formInput($form->get('developer')); ?>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-md-2 control-label">Descrição</label>
+            <div class="col-md-10">
+                <?php echo $this->formTextarea($form->get('description')); ?>
+            </div>
+        </div>
+    </div><!-- form-horizontal --> 
+
+</div><!--#wiz1step2-->
+
+<?php echo $this->formSubmit($form->get('submit')); ?>
+<?php echo $this->form()->closeTag($form); ?>

@@ -1,0 +1,19 @@
+
+<div class="widget">
+    <h4 class="widgettitle">Adicionar Categoria</h4>
+    <div class="widgetcontent">
+        <?php
+        $form = $this->form;
+        $form->setAttribute('action', $this->url('repository/category', array('action' => 'new')));
+        $form->prepare();
+        echo $this->form()->openTag($form);
+        ?>
+        <div class="form-group">
+            <label>Nome da Categoria</label>
+            <?php echo $this->formInput($form->get('name')); ?>
+        </div>
+        <br /><br />
+        <?php echo $this->formSubmit($form->get('submit')); ?>
+        <?php echo $this->form()->closeTag($form); ?>
+    </div><!-- widgetcontent-->
+</div><!-- widgetcontent-->

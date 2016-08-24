@@ -1,0 +1,218 @@
+<logEntry><timestamp>2016-07-16T04:26:42+02:00</timestamp><priority>3</priority><priorityName>ERR</priorityName><message>Exception:
+1: Statement could not be executed (42S22 - 1054 - Unknown column 'category' in 'field list')n2: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'category' in 'field list'
+Trace:
+#0 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-db\src\TableGateway\AbstractTableGateway.php(307): Zend\Db\Adapter\Driver\Pdo\Statement-&gt;execute()
+#1 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-db\src\TableGateway\AbstractTableGateway.php(263): Zend\Db\TableGateway\AbstractTableGateway-&gt;executeInsert(Object(Zend\Db\Sql\Insert))
+#2 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\module\Base\src\Base\Service\AbstractTable.php(53): Zend\Db\TableGateway\AbstractTableGateway-&gt;insert(Array)
+#3 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\module\Base\src\Base\Controller\CrudController.php(65): Base\Service\AbstractTable-&gt;insert(Array)
+#4 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\module\Repository\src\Repository\Controller\AlgorithmsController.php(53): Base\Controller\CrudController-&gt;newAction()
+#5 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-mvc\src\Controller\AbstractActionController.php(82): Repository\Controller\AlgorithmsController-&gt;newAction()
+#6 [internal function]: Zend\Mvc\Controller\AbstractActionController-&gt;onDispatch(Object(Zend\Mvc\MvcEvent))
+#7 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-eventmanager\src\EventManager.php(490): call_user_func(Array, Object(Zend\Mvc\MvcEvent))
+#8 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-eventmanager\src\EventManager.php(263): Zend\EventManager\EventManager-&gt;triggerListeners('dispatch', Object(Zend\Mvc\MvcEvent), Object(Closure))
+#9 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-mvc\src\Controller\AbstractController.php(118): Zend\EventManager\EventManager-&gt;triggerEventUntil(Object(Closure), Object(Zend\Mvc\MvcEvent))
+#10 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-mvc\src\DispatchListener.php(118): Zend\Mvc\Controller\AbstractController-&gt;dispatch(Object(Zend\Http\PhpEnvironment\Request), Object(Zend\Http\PhpEnvironment\Response))
+#11 [internal function]: Zend\Mvc\DispatchListener-&gt;onDispatch(Object(Zend\Mvc\MvcEvent))
+#12 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-eventmanager\src\EventManager.php(490): call_user_func(Array, Object(Zend\Mvc\MvcEvent))
+#13 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-eventmanager\src\EventManager.php(263): Zend\EventManager\EventManager-&gt;triggerListeners('dispatch', Object(Zend\Mvc\MvcEvent), Object(Closure))
+#14 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-mvc\src\Application.php(340): Zend\EventManager\EventManager-&gt;triggerEventUntil(Object(Closure), Object(Zend\Mvc\MvcEvent))
+#15 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\public\index.php(17): Zend\Mvc\Application-&gt;run()
+#16 {main}</message></logEntry>
+
+
+<logEntry><timestamp>2016-07-16T04:26:42+02:00</timestamp><priority>3</priority><priorityName>ERR</priorityName><message>Exception:
+1: Statement could not be executed (42S22 - 1054 - Unknown column 'category' in 'field list')n2: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'category' in 'field list'
+Trace:
+#0 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-db\src\TableGateway\AbstractTableGateway.php(307): Zend\Db\Adapter\Driver\Pdo\Statement-&gt;execute()
+#1 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-db\src\TableGateway\AbstractTableGateway.php(263): Zend\Db\TableGateway\AbstractTableGateway-&gt;executeInsert(Object(Zend\Db\Sql\Insert))
+#2 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\module\Base\src\Base\Service\AbstractTable.php(53): Zend\Db\TableGateway\AbstractTableGateway-&gt;insert(Array)
+#3 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\module\Base\src\Base\Controller\CrudController.php(65): Base\Service\AbstractTable-&gt;insert(Array)
+#4 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\module\Repository\src\Repository\Controller\AlgorithmsController.php(53): Base\Controller\CrudController-&gt;newAction()
+#5 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-mvc\src\Controller\AbstractActionController.php(82): Repository\Controller\AlgorithmsController-&gt;newAction()
+#6 [internal function]: Zend\Mvc\Controller\AbstractActionController-&gt;onDispatch(Object(Zend\Mvc\MvcEvent))
+#7 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-eventmanager\src\EventManager.php(490): call_user_func(Array, Object(Zend\Mvc\MvcEvent))
+#8 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-eventmanager\src\EventManager.php(263): Zend\EventManager\EventManager-&gt;triggerListeners('dispatch', Object(Zend\Mvc\MvcEvent), Object(Closure))
+#9 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-mvc\src\Controller\AbstractController.php(118): Zend\EventManager\EventManager-&gt;triggerEventUntil(Object(Closure), Object(Zend\Mvc\MvcEvent))
+#10 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-mvc\src\DispatchListener.php(118): Zend\Mvc\Controller\AbstractController-&gt;dispatch(Object(Zend\Http\PhpEnvironment\Request), Object(Zend\Http\PhpEnvironment\Response))
+#11 [internal function]: Zend\Mvc\DispatchListener-&gt;onDispatch(Object(Zend\Mvc\MvcEvent))
+#12 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-eventmanager\src\EventManager.php(490): call_user_func(Array, Object(Zend\Mvc\MvcEvent))
+#13 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-eventmanager\src\EventManager.php(263): Zend\EventManager\EventManager-&gt;triggerListeners('dispatch', Object(Zend\Mvc\MvcEvent), Object(Closure))
+#14 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-mvc\src\Application.php(340): Zend\EventManager\EventManager-&gt;triggerEventUntil(Object(Closure), Object(Zend\Mvc\MvcEvent))
+#15 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\public\index.php(17): Zend\Mvc\Application-&gt;run()
+#16 {main}</message></logEntry>
+
+
+<logEntry><timestamp>2016-07-16T04:29:53+02:00</timestamp><priority>3</priority><priorityName>ERR</priorityName><message>Exception:
+1: Statement could not be executed (42S22 - 1054 - Unknown column 'submit' in 'field list')n2: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'submit' in 'field list'
+Trace:
+#0 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-db\src\TableGateway\AbstractTableGateway.php(307): Zend\Db\Adapter\Driver\Pdo\Statement-&gt;execute()
+#1 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-db\src\TableGateway\AbstractTableGateway.php(263): Zend\Db\TableGateway\AbstractTableGateway-&gt;executeInsert(Object(Zend\Db\Sql\Insert))
+#2 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\module\Base\src\Base\Service\AbstractTable.php(53): Zend\Db\TableGateway\AbstractTableGateway-&gt;insert(Array)
+#3 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\module\Repository\src\Repository\Controller\AlgorithmsController.php(56): Base\Service\AbstractTable-&gt;insert(Array)
+#4 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-mvc\src\Controller\AbstractActionController.php(82): Repository\Controller\AlgorithmsController-&gt;newAction()
+#5 [internal function]: Zend\Mvc\Controller\AbstractActionController-&gt;onDispatch(Object(Zend\Mvc\MvcEvent))
+#6 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-eventmanager\src\EventManager.php(490): call_user_func(Array, Object(Zend\Mvc\MvcEvent))
+#7 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-eventmanager\src\EventManager.php(263): Zend\EventManager\EventManager-&gt;triggerListeners('dispatch', Object(Zend\Mvc\MvcEvent), Object(Closure))
+#8 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-mvc\src\Controller\AbstractController.php(118): Zend\EventManager\EventManager-&gt;triggerEventUntil(Object(Closure), Object(Zend\Mvc\MvcEvent))
+#9 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-mvc\src\DispatchListener.php(118): Zend\Mvc\Controller\AbstractController-&gt;dispatch(Object(Zend\Http\PhpEnvironment\Request), Object(Zend\Http\PhpEnvironment\Response))
+#10 [internal function]: Zend\Mvc\DispatchListener-&gt;onDispatch(Object(Zend\Mvc\MvcEvent))
+#11 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-eventmanager\src\EventManager.php(490): call_user_func(Array, Object(Zend\Mvc\MvcEvent))
+#12 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-eventmanager\src\EventManager.php(263): Zend\EventManager\EventManager-&gt;triggerListeners('dispatch', Object(Zend\Mvc\MvcEvent), Object(Closure))
+#13 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-mvc\src\Application.php(340): Zend\EventManager\EventManager-&gt;triggerEventUntil(Object(Closure), Object(Zend\Mvc\MvcEvent))
+#14 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\public\index.php(17): Zend\Mvc\Application-&gt;run()
+#15 {main}</message></logEntry>
+
+
+<logEntry><timestamp>2016-07-16T04:29:53+02:00</timestamp><priority>3</priority><priorityName>ERR</priorityName><message>Exception:
+1: Statement could not be executed (42S22 - 1054 - Unknown column 'submit' in 'field list')n2: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'submit' in 'field list'
+Trace:
+#0 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-db\src\TableGateway\AbstractTableGateway.php(307): Zend\Db\Adapter\Driver\Pdo\Statement-&gt;execute()
+#1 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-db\src\TableGateway\AbstractTableGateway.php(263): Zend\Db\TableGateway\AbstractTableGateway-&gt;executeInsert(Object(Zend\Db\Sql\Insert))
+#2 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\module\Base\src\Base\Service\AbstractTable.php(53): Zend\Db\TableGateway\AbstractTableGateway-&gt;insert(Array)
+#3 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\module\Repository\src\Repository\Controller\AlgorithmsController.php(56): Base\Service\AbstractTable-&gt;insert(Array)
+#4 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-mvc\src\Controller\AbstractActionController.php(82): Repository\Controller\AlgorithmsController-&gt;newAction()
+#5 [internal function]: Zend\Mvc\Controller\AbstractActionController-&gt;onDispatch(Object(Zend\Mvc\MvcEvent))
+#6 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-eventmanager\src\EventManager.php(490): call_user_func(Array, Object(Zend\Mvc\MvcEvent))
+#7 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-eventmanager\src\EventManager.php(263): Zend\EventManager\EventManager-&gt;triggerListeners('dispatch', Object(Zend\Mvc\MvcEvent), Object(Closure))
+#8 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-mvc\src\Controller\AbstractController.php(118): Zend\EventManager\EventManager-&gt;triggerEventUntil(Object(Closure), Object(Zend\Mvc\MvcEvent))
+#9 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-mvc\src\DispatchListener.php(118): Zend\Mvc\Controller\AbstractController-&gt;dispatch(Object(Zend\Http\PhpEnvironment\Request), Object(Zend\Http\PhpEnvironment\Response))
+#10 [internal function]: Zend\Mvc\DispatchListener-&gt;onDispatch(Object(Zend\Mvc\MvcEvent))
+#11 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-eventmanager\src\EventManager.php(490): call_user_func(Array, Object(Zend\Mvc\MvcEvent))
+#12 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-eventmanager\src\EventManager.php(263): Zend\EventManager\EventManager-&gt;triggerListeners('dispatch', Object(Zend\Mvc\MvcEvent), Object(Closure))
+#13 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-mvc\src\Application.php(340): Zend\EventManager\EventManager-&gt;triggerEventUntil(Object(Closure), Object(Zend\Mvc\MvcEvent))
+#14 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\public\index.php(17): Zend\Mvc\Application-&gt;run()
+#15 {main}</message></logEntry>
+
+
+<logEntry><timestamp>2016-07-16T04:32:04+02:00</timestamp><priority>3</priority><priorityName>ERR</priorityName><message>Exception:
+1: Statement could not be executed (42000 - 1064 - You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' '1')' at line 1)n2: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' '1')' at line 1
+Trace:
+#0 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-db\src\TableGateway\AbstractTableGateway.php(307): Zend\Db\Adapter\Driver\Pdo\Statement-&gt;execute()
+#1 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-db\src\TableGateway\AbstractTableGateway.php(263): Zend\Db\TableGateway\AbstractTableGateway-&gt;executeInsert(Object(Zend\Db\Sql\Insert))
+#2 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\module\Base\src\Base\Service\AbstractTable.php(53): Zend\Db\TableGateway\AbstractTableGateway-&gt;insert(Array)
+#3 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\module\Repository\src\Repository\Service\AlgorithmsTableService.php(40): Base\Service\AbstractTable-&gt;insert(Array)
+#4 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\module\Repository\src\Repository\Controller\AlgorithmsController.php(56): Repository\Service\AlgorithmsTableService-&gt;insert(Array)
+#5 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-mvc\src\Controller\AbstractActionController.php(82): Repository\Controller\AlgorithmsController-&gt;newAction()
+#6 [internal function]: Zend\Mvc\Controller\AbstractActionController-&gt;onDispatch(Object(Zend\Mvc\MvcEvent))
+#7 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-eventmanager\src\EventManager.php(490): call_user_func(Array, Object(Zend\Mvc\MvcEvent))
+#8 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-eventmanager\src\EventManager.php(263): Zend\EventManager\EventManager-&gt;triggerListeners('dispatch', Object(Zend\Mvc\MvcEvent), Object(Closure))
+#9 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-mvc\src\Controller\AbstractController.php(118): Zend\EventManager\EventManager-&gt;triggerEventUntil(Object(Closure), Object(Zend\Mvc\MvcEvent))
+#10 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-mvc\src\DispatchListener.php(118): Zend\Mvc\Controller\AbstractController-&gt;dispatch(Object(Zend\Http\PhpEnvironment\Request), Object(Zend\Http\PhpEnvironment\Response))
+#11 [internal function]: Zend\Mvc\DispatchListener-&gt;onDispatch(Object(Zend\Mvc\MvcEvent))
+#12 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-eventmanager\src\EventManager.php(490): call_user_func(Array, Object(Zend\Mvc\MvcEvent))
+#13 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-eventmanager\src\EventManager.php(263): Zend\EventManager\EventManager-&gt;triggerListeners('dispatch', Object(Zend\Mvc\MvcEvent), Object(Closure))
+#14 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-mvc\src\Application.php(340): Zend\EventManager\EventManager-&gt;triggerEventUntil(Object(Closure), Object(Zend\Mvc\MvcEvent))
+#15 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\public\index.php(17): Zend\Mvc\Application-&gt;run()
+#16 {main}</message></logEntry>
+
+
+<logEntry><timestamp>2016-07-16T04:32:04+02:00</timestamp><priority>3</priority><priorityName>ERR</priorityName><message>Exception:
+1: Statement could not be executed (42000 - 1064 - You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' '1')' at line 1)n2: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' '1')' at line 1
+Trace:
+#0 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-db\src\TableGateway\AbstractTableGateway.php(307): Zend\Db\Adapter\Driver\Pdo\Statement-&gt;execute()
+#1 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-db\src\TableGateway\AbstractTableGateway.php(263): Zend\Db\TableGateway\AbstractTableGateway-&gt;executeInsert(Object(Zend\Db\Sql\Insert))
+#2 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\module\Base\src\Base\Service\AbstractTable.php(53): Zend\Db\TableGateway\AbstractTableGateway-&gt;insert(Array)
+#3 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\module\Repository\src\Repository\Service\AlgorithmsTableService.php(40): Base\Service\AbstractTable-&gt;insert(Array)
+#4 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\module\Repository\src\Repository\Controller\AlgorithmsController.php(56): Repository\Service\AlgorithmsTableService-&gt;insert(Array)
+#5 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-mvc\src\Controller\AbstractActionController.php(82): Repository\Controller\AlgorithmsController-&gt;newAction()
+#6 [internal function]: Zend\Mvc\Controller\AbstractActionController-&gt;onDispatch(Object(Zend\Mvc\MvcEvent))
+#7 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-eventmanager\src\EventManager.php(490): call_user_func(Array, Object(Zend\Mvc\MvcEvent))
+#8 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-eventmanager\src\EventManager.php(263): Zend\EventManager\EventManager-&gt;triggerListeners('dispatch', Object(Zend\Mvc\MvcEvent), Object(Closure))
+#9 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-mvc\src\Controller\AbstractController.php(118): Zend\EventManager\EventManager-&gt;triggerEventUntil(Object(Closure), Object(Zend\Mvc\MvcEvent))
+#10 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-mvc\src\DispatchListener.php(118): Zend\Mvc\Controller\AbstractController-&gt;dispatch(Object(Zend\Http\PhpEnvironment\Request), Object(Zend\Http\PhpEnvironment\Response))
+#11 [internal function]: Zend\Mvc\DispatchListener-&gt;onDispatch(Object(Zend\Mvc\MvcEvent))
+#12 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-eventmanager\src\EventManager.php(490): call_user_func(Array, Object(Zend\Mvc\MvcEvent))
+#13 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-eventmanager\src\EventManager.php(263): Zend\EventManager\EventManager-&gt;triggerListeners('dispatch', Object(Zend\Mvc\MvcEvent), Object(Closure))
+#14 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-mvc\src\Application.php(340): Zend\EventManager\EventManager-&gt;triggerEventUntil(Object(Closure), Object(Zend\Mvc\MvcEvent))
+#15 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\public\index.php(17): Zend\Mvc\Application-&gt;run()
+#16 {main}</message></logEntry>
+
+
+<logEntry><timestamp>2016-07-16T04:33:57+02:00</timestamp><priority>3</priority><priorityName>ERR</priorityName><message>Exception:
+1: Statement could not be executed (42000 - 1064 - You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1)n2: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+Trace:
+#0 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-db\src\TableGateway\AbstractTableGateway.php(307): Zend\Db\Adapter\Driver\Pdo\Statement-&gt;execute()
+#1 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-db\src\TableGateway\AbstractTableGateway.php(263): Zend\Db\TableGateway\AbstractTableGateway-&gt;executeInsert(Object(Zend\Db\Sql\Insert))
+#2 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\module\Base\src\Base\Service\AbstractTable.php(53): Zend\Db\TableGateway\AbstractTableGateway-&gt;insert(Array)
+#3 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\module\Repository\src\Repository\Service\AlgorithmsTableService.php(40): Base\Service\AbstractTable-&gt;insert(Array)
+#4 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\module\Repository\src\Repository\Controller\AlgorithmsController.php(56): Repository\Service\AlgorithmsTableService-&gt;insert(Array)
+#5 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-mvc\src\Controller\AbstractActionController.php(82): Repository\Controller\AlgorithmsController-&gt;newAction()
+#6 [internal function]: Zend\Mvc\Controller\AbstractActionController-&gt;onDispatch(Object(Zend\Mvc\MvcEvent))
+#7 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-eventmanager\src\EventManager.php(490): call_user_func(Array, Object(Zend\Mvc\MvcEvent))
+#8 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-eventmanager\src\EventManager.php(263): Zend\EventManager\EventManager-&gt;triggerListeners('dispatch', Object(Zend\Mvc\MvcEvent), Object(Closure))
+#9 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-mvc\src\Controller\AbstractController.php(118): Zend\EventManager\EventManager-&gt;triggerEventUntil(Object(Closure), Object(Zend\Mvc\MvcEvent))
+#10 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-mvc\src\DispatchListener.php(118): Zend\Mvc\Controller\AbstractController-&gt;dispatch(Object(Zend\Http\PhpEnvironment\Request), Object(Zend\Http\PhpEnvironment\Response))
+#11 [internal function]: Zend\Mvc\DispatchListener-&gt;onDispatch(Object(Zend\Mvc\MvcEvent))
+#12 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-eventmanager\src\EventManager.php(490): call_user_func(Array, Object(Zend\Mvc\MvcEvent))
+#13 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-eventmanager\src\EventManager.php(263): Zend\EventManager\EventManager-&gt;triggerListeners('dispatch', Object(Zend\Mvc\MvcEvent), Object(Closure))
+#14 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-mvc\src\Application.php(340): Zend\EventManager\EventManager-&gt;triggerEventUntil(Object(Closure), Object(Zend\Mvc\MvcEvent))
+#15 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\public\index.php(17): Zend\Mvc\Application-&gt;run()
+#16 {main}</message></logEntry>
+
+
+<logEntry><timestamp>2016-07-16T04:33:57+02:00</timestamp><priority>3</priority><priorityName>ERR</priorityName><message>Exception:
+1: Statement could not be executed (42000 - 1064 - You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1)n2: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+Trace:
+#0 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-db\src\TableGateway\AbstractTableGateway.php(307): Zend\Db\Adapter\Driver\Pdo\Statement-&gt;execute()
+#1 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-db\src\TableGateway\AbstractTableGateway.php(263): Zend\Db\TableGateway\AbstractTableGateway-&gt;executeInsert(Object(Zend\Db\Sql\Insert))
+#2 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\module\Base\src\Base\Service\AbstractTable.php(53): Zend\Db\TableGateway\AbstractTableGateway-&gt;insert(Array)
+#3 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\module\Repository\src\Repository\Service\AlgorithmsTableService.php(40): Base\Service\AbstractTable-&gt;insert(Array)
+#4 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\module\Repository\src\Repository\Controller\AlgorithmsController.php(56): Repository\Service\AlgorithmsTableService-&gt;insert(Array)
+#5 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-mvc\src\Controller\AbstractActionController.php(82): Repository\Controller\AlgorithmsController-&gt;newAction()
+#6 [internal function]: Zend\Mvc\Controller\AbstractActionController-&gt;onDispatch(Object(Zend\Mvc\MvcEvent))
+#7 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-eventmanager\src\EventManager.php(490): call_user_func(Array, Object(Zend\Mvc\MvcEvent))
+#8 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-eventmanager\src\EventManager.php(263): Zend\EventManager\EventManager-&gt;triggerListeners('dispatch', Object(Zend\Mvc\MvcEvent), Object(Closure))
+#9 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-mvc\src\Controller\AbstractController.php(118): Zend\EventManager\EventManager-&gt;triggerEventUntil(Object(Closure), Object(Zend\Mvc\MvcEvent))
+#10 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-mvc\src\DispatchListener.php(118): Zend\Mvc\Controller\AbstractController-&gt;dispatch(Object(Zend\Http\PhpEnvironment\Request), Object(Zend\Http\PhpEnvironment\Response))
+#11 [internal function]: Zend\Mvc\DispatchListener-&gt;onDispatch(Object(Zend\Mvc\MvcEvent))
+#12 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-eventmanager\src\EventManager.php(490): call_user_func(Array, Object(Zend\Mvc\MvcEvent))
+#13 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-eventmanager\src\EventManager.php(263): Zend\EventManager\EventManager-&gt;triggerListeners('dispatch', Object(Zend\Mvc\MvcEvent), Object(Closure))
+#14 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-mvc\src\Application.php(340): Zend\EventManager\EventManager-&gt;triggerEventUntil(Object(Closure), Object(Zend\Mvc\MvcEvent))
+#15 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\public\index.php(17): Zend\Mvc\Application-&gt;run()
+#16 {main}</message></logEntry>
+
+
+<logEntry><timestamp>2016-07-16T04:37:49+02:00</timestamp><priority>3</priority><priorityName>ERR</priorityName><message>Exception:
+1: Statement could not be executed (42000 - 1064 - You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1)n2: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+Trace:
+#0 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-db\src\TableGateway\AbstractTableGateway.php(307): Zend\Db\Adapter\Driver\Pdo\Statement-&gt;execute()
+#1 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-db\src\TableGateway\AbstractTableGateway.php(263): Zend\Db\TableGateway\AbstractTableGateway-&gt;executeInsert(Object(Zend\Db\Sql\Insert))
+#2 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\module\Base\src\Base\Service\AbstractTable.php(53): Zend\Db\TableGateway\AbstractTableGateway-&gt;insert(Array)
+#3 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\module\Repository\src\Repository\Service\AlgorithmsTableService.php(43): Base\Service\AbstractTable-&gt;insert(Array)
+#4 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\module\Repository\src\Repository\Controller\AlgorithmsController.php(56): Repository\Service\AlgorithmsTableService-&gt;insert(Array)
+#5 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-mvc\src\Controller\AbstractActionController.php(82): Repository\Controller\AlgorithmsController-&gt;newAction()
+#6 [internal function]: Zend\Mvc\Controller\AbstractActionController-&gt;onDispatch(Object(Zend\Mvc\MvcEvent))
+#7 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-eventmanager\src\EventManager.php(490): call_user_func(Array, Object(Zend\Mvc\MvcEvent))
+#8 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-eventmanager\src\EventManager.php(263): Zend\EventManager\EventManager-&gt;triggerListeners('dispatch', Object(Zend\Mvc\MvcEvent), Object(Closure))
+#9 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-mvc\src\Controller\AbstractController.php(118): Zend\EventManager\EventManager-&gt;triggerEventUntil(Object(Closure), Object(Zend\Mvc\MvcEvent))
+#10 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-mvc\src\DispatchListener.php(118): Zend\Mvc\Controller\AbstractController-&gt;dispatch(Object(Zend\Http\PhpEnvironment\Request), Object(Zend\Http\PhpEnvironment\Response))
+#11 [internal function]: Zend\Mvc\DispatchListener-&gt;onDispatch(Object(Zend\Mvc\MvcEvent))
+#12 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-eventmanager\src\EventManager.php(490): call_user_func(Array, Object(Zend\Mvc\MvcEvent))
+#13 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-eventmanager\src\EventManager.php(263): Zend\EventManager\EventManager-&gt;triggerListeners('dispatch', Object(Zend\Mvc\MvcEvent), Object(Closure))
+#14 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-mvc\src\Application.php(340): Zend\EventManager\EventManager-&gt;triggerEventUntil(Object(Closure), Object(Zend\Mvc\MvcEvent))
+#15 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\public\index.php(17): Zend\Mvc\Application-&gt;run()
+#16 {main}</message></logEntry>
+
+
+<logEntry><timestamp>2016-07-16T04:37:49+02:00</timestamp><priority>3</priority><priorityName>ERR</priorityName><message>Exception:
+1: Statement could not be executed (42000 - 1064 - You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1)n2: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+Trace:
+#0 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-db\src\TableGateway\AbstractTableGateway.php(307): Zend\Db\Adapter\Driver\Pdo\Statement-&gt;execute()
+#1 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-db\src\TableGateway\AbstractTableGateway.php(263): Zend\Db\TableGateway\AbstractTableGateway-&gt;executeInsert(Object(Zend\Db\Sql\Insert))
+#2 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\module\Base\src\Base\Service\AbstractTable.php(53): Zend\Db\TableGateway\AbstractTableGateway-&gt;insert(Array)
+#3 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\module\Repository\src\Repository\Service\AlgorithmsTableService.php(43): Base\Service\AbstractTable-&gt;insert(Array)
+#4 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\module\Repository\src\Repository\Controller\AlgorithmsController.php(56): Repository\Service\AlgorithmsTableService-&gt;insert(Array)
+#5 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-mvc\src\Controller\AbstractActionController.php(82): Repository\Controller\AlgorithmsController-&gt;newAction()
+#6 [internal function]: Zend\Mvc\Controller\AbstractActionController-&gt;onDispatch(Object(Zend\Mvc\MvcEvent))
+#7 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-eventmanager\src\EventManager.php(490): call_user_func(Array, Object(Zend\Mvc\MvcEvent))
+#8 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-eventmanager\src\EventManager.php(263): Zend\EventManager\EventManager-&gt;triggerListeners('dispatch', Object(Zend\Mvc\MvcEvent), Object(Closure))
+#9 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-mvc\src\Controller\AbstractController.php(118): Zend\EventManager\EventManager-&gt;triggerEventUntil(Object(Closure), Object(Zend\Mvc\MvcEvent))
+#10 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-mvc\src\DispatchListener.php(118): Zend\Mvc\Controller\AbstractController-&gt;dispatch(Object(Zend\Http\PhpEnvironment\Request), Object(Zend\Http\PhpEnvironment\Response))
+#11 [internal function]: Zend\Mvc\DispatchListener-&gt;onDispatch(Object(Zend\Mvc\MvcEvent))
+#12 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-eventmanager\src\EventManager.php(490): call_user_func(Array, Object(Zend\Mvc\MvcEvent))
+#13 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-eventmanager\src\EventManager.php(263): Zend\EventManager\EventManager-&gt;triggerListeners('dispatch', Object(Zend\Mvc\MvcEvent), Object(Closure))
+#14 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\vendor\zendframework\zend-mvc\src\Application.php(340): Zend\EventManager\EventManager-&gt;triggerEventUntil(Object(Closure), Object(Zend\Mvc\MvcEvent))
+#15 D:\Projetos\Algoritmiun\URANUS\SYCORAX_0x1468167585\public\index.php(17): Zend\Mvc\Application-&gt;run()
+#16 {main}</message></logEntry>
+
+
